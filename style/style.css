@@ -1,0 +1,145 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	background-color: 	#e7ebec;
+	padding:0;
+	margin: 0;
+}
+.headbox{
+	position: absolute;
+	width: 1920px;
+	height: 166px;
+	
+}
+
+.headbox #boxlogo{
+	position: absolute;
+	width: 	245px;
+	height: 107px;
+	left:375px;
+	top:29px;
+	background-size: cover;
+	background-image: url(img/boxlogo.png)
+	
+	
+}
+
+.phone{
+	position: absolute;
+	width: 189px;
+	height: 50px;
+	
+	left:1174px;
+	top: 58px;
+}
+
+.phone #logophone{
+	position: absolute;
+	width: 24px;
+	height: 48px;
+
+	left:2px;
+	top:1px;
+	background-size: 95%;
+	background-image: url(img/logophone.png);
+
+}
+
+.phone ul {
+	position: absolute;
+	margin-top: 4px;
+	floa:right;
+	color:black;
+	vertical-align: right;
+
+}
+.phone a{
+	color: black;
+}
+li{
+	list-style-type: none; 
+}
+.time{
+	position: absolute;
+	width: 189px;
+	height: 50px;
+	
+	left:1393px;
+	top: 58px;
+}
+
+.time #logotime{
+	position: absolute;
+	
+	width: 48px;
+	height: 48px;
+	left:2px;
+	top:1px;
+	background-size: 99%;
+	background-image: url(img/timelogo.png);
+
+}
+
+.time ul{
+	position: absolute;
+	margin-left:15px;
+	margin-top: 4px;
+	float:right;
+	color:black;
+	vertical-align: right;
+}
+
+ul#menu li{
+	display: inline-block;
+	left:50px;
+	
+}
+#menu{
+	position: absolute;
+	left: 310px;
+}
+#menu a {
+	display: inline-block;
+	text-decoration: none;
+	color:#2b2d2d;
+	font-weight: 500;
+	padding: 7px 20px;
+	font-weight: 550;
+	margin-left: 10px;
+}
+
+#menu a:hover {
+	text-decoration: underline;
+	color: #1bb330;
+}
+.menumain{
+	position: absolute;
+	width: 1920px;
+	height: 60px;
+	background-color: white;
+	top:166px;
+	border-bottom:  4px solid #cdd6d8;
+}
+
+#shop{
+	position: absolute;
+	width: 33px;
+	height: 33px;
+	background-size: cover;
+	left:1460px;
+	top:13px;
+	background-image: url(img/shop.png);
+}
+
+#profile{
+	position: absolute;
+	width: 33px;
+	height: 33px;
+	background-size: cover;
+	left:1520px;
+	top:13px;
+	background-image: url(img/profile.png);
+}
+

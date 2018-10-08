@@ -163,11 +163,10 @@ ul#menu li{
 	display: inline-block;
 	margin-left:  8px;
   border-radius: 10px;
-  border: 3px solid #2b2d2d;
+  border: 3px solid #1bb330;
+
+  
 }
-
-
-
 #scroll ul{
 	display: flex;
 	justify-content:center;
@@ -175,69 +174,6 @@ ul#menu li{
 	align-items: flex-end;
 	}
 
-	
-
-	#more-about-products{
-		position: absolute;
-		height: 798px;
-		width: 1200px;
-		background-color: red;
-		top:900px;
-		left: 360px;
+	#scroll ul li a : hover{
+		background-color: #1bb330;
 	}
-
-#more-about-products #more-about-products-firstline ul{
-	display: flex;
-	justify-content:space-around;
-	flex-direction: row;
-}
-#more-about-products #more-about-products-firstline ul li{
-	height: 370px;
-	width: 272px;
-	background-color: blue;
-}
-
-
-
-
-#more-about-products #more-about-products-secondline ul {
- display: flex;
- flex-direction: row;
-
-}
-#more-about-products #more-about-products-secondline ul li{
-	height: 370px;
-	width: 272px;
-	background-color: blue;
-	margin-left: 8px;
-}
-
-
-#more-about-products #more-about-products-secondline ul li #promise-block{
-	width: 550px;
-	height: 370px;
-}
-
- #iphone,#ipad,#iwatch,#ipod{
-	
-	height: 222px;
-	width: 178px;
-	background-color: green;	
-	margin-left: 11px;
-	margin-top: 5px;
-
-}
-
-#imac{
-  height: 222px;
-	width: 200px;
-	background-color: green;	
-	margin-top: 5px;
-}
-
-#macbook{
-  height: 222px;
-	width: 200px;
-	background-color: green;	
-	margin-top: 5px;
-}

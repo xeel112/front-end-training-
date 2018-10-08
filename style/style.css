@@ -143,9 +143,37 @@ ul#menu li{
 	background-image: url(img/profile.png);
 }
 
-.scroll{
+#scroll{
 	position: absolute;
-	wight:1920px;
-	height:570px;
-	background-color:red;
+	width: 1920px;
+	height: 570px;
+	top:230px; 
 }
+#scroll-picture{
+	height: 500px;
+	width: 1920px;
+	background-image: url(img/scroll-picture.png);
+}
+
+
+
+#scroll ul li a{
+	height: 10px;
+	width: 10px;
+	display: inline-block;
+	margin-left:  8px;
+  border-radius: 10px;
+  border: 3px solid #1bb330;
+
+  
+}
+#scroll ul{
+	display: flex;
+	justify-content:center;
+	flex-direction: row;
+	align-items: flex-end;
+	}
+
+	#scroll ul li a : hover{
+		background-color: #1bb330;
+	}

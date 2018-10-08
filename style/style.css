@@ -7,13 +7,11 @@ body{
 	padding:0;
 	margin: 0;
 }
-.headbox{
+.headbox{                    /* Начало шапки*/
 	position: absolute;
 	width: 1920px;
 	height: 166px;
-	
 }
-
 .headbox #boxlogo{
 	position: absolute;
 	width: 	245px;
@@ -22,38 +20,29 @@ body{
 	top:29px;
 	background-size: cover;
 	background-image: url(img/logo.png)
-	
-	
 }
-
 .phone{
 	position: absolute;
 	width: 189px;
 	height: 50px;
-	
 	left:1174px;
 	top: 58px;
 }
-
 .phone #logophone{
 	position: absolute;
 	width: 24px;
 	height: 48px;
-
-	left:2px;
+  left:2px;
 	top:1px;
 	background-size: 95%;
 	background-image: url(img/phone.png);
-
 }
-
 .phone ul {
 	position: absolute;
 	margin-top: 7px;
 	floa:right;
 	color:black;
 	vertical-align: right;
-
 }
 .phone a{
 	color: black;
@@ -65,36 +54,29 @@ li{
 	position: absolute;
 	width: 189px;
 	height: 50px;
-	
 	left:1393px;
 	top: 58px;
 }
-
 .time #logotime{
 	position: absolute;
-	
 	width: 48px;
 	height: 48px;
 	left:2px;
 	top:1px;
 	background-size: cover;
 	background-image: url(img/clock.png);
-
 }
-
 .time ul{
 	position: absolute;
 	margin-left:20px;
 	margin-top: 7px;
-	float:right;
+	float:right;                      /* Конец шапки*/
 	color:black;
 	vertical-align: right;
 }
-
 ul#menu li{
-	display: inline-block;
+	display: inline-block;  /*Начало меню*/
 	left:50px;
-	
 }
 #menu{
 	position: absolute;
@@ -109,7 +91,6 @@ ul#menu li{
 	font-weight: 550;
 	margin-left: 10px;
 }
-
 #menu a:hover {
 	text-decoration: underline;
 	color: #1bb330;
@@ -122,7 +103,6 @@ ul#menu li{
 	top:166px;
 	border-bottom:  4px solid #cdd6d8;
 }
-
 #shop{
 	position: absolute;
 	width: 33px;
@@ -132,20 +112,18 @@ ul#menu li{
 	top:13px;
 	background-image: url(img/shop.png);
 }
-
 #profile{
 	position: absolute;
 	width: 33px;
 	height: 33px;
 	background-size: cover;
-	left:1520px;
+	left:1520px;                         /*Конец меню*/
 	top:13px;
 	background-image: url(img/profile.png);
 }
-
 #scroll{
 	position: absolute;
-	width: 1920px;
+	width: 1920px;     /*Начало карусели*/
 	height: 570px;
 	top:230px; 
 }
@@ -154,38 +132,32 @@ ul#menu li{
 	width: 1920px;
 	background-image: url(img/scroll-picture.png);
 }
-
-
-
 #scroll ul li a{
 	height: 10px;
 	width: 10px;
 	display: inline-block;
-	margin-left:  8px;
-  border-radius: 10px;
-  border: 3px solid #2b2d2d;
+	margin-left:  16px;
+	border-radius: 10px;
+	border: 2px solid #2b2d2d;
+	margin-top: 50px;
 }
-
-
-
+#scroll ul li a:active{
+	border: 2px solid #42be54;
+	background-color:#42be54;
+}
 #scroll ul{
 	display: flex;
 	justify-content:center;
 	flex-direction: row;
-	align-items: flex-end;
-	}
-
-	
-
-	#more-about-products{
-		position: absolute;
-		height: 798px;
-		width: 1200px;
-		
-		top:900px;
-		left: 360px;
-	}
-
+	align-items: flex-end;       /*Конец Карусели*/
+}
+#more-about-products{
+	position: absolute;
+	height: 798px;        /*Начало плиток с девайсами*/
+	width: 1200px;
+  top:900px;
+	left: 360px;
+}
 #more-about-products #more-about-products-firstline ul{
 	display: flex;
 	justify-content:space-around;
@@ -194,35 +166,23 @@ ul#menu li{
 #more-about-products #more-about-products-firstline ul li{
 	height: 370px;
 	width: 272px;
-	
 }
-
-
-
-
 #more-about-products #more-about-products-secondline ul {
- display: flex;
- flex-direction: row;
- justify-content:space-around;
-
-
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
 }
 #more-about-products #more-about-products-secondline ul li{
 	height: 370px;
 	width: 272px;
-	
-	
 }
-
-
 #more-about-products #more-about-products-secondline ul  #promise-block{
 	width: 560px;
 	height: 370px;
 	background-color: white;
+	box-shadow: 5px 5px 0 0 rgba(0,0,0,0.5);
 }
-
- #iphone{
-	
+#iphone{
 	height: 222px;
 	width: 178px;
 	margin-left: 47px;
@@ -249,13 +209,13 @@ ul#menu li{
 }
 
 #imac{
-  height: 214px;
+	height: 214px;
 	width: 272px;
 	margin-top: 12px;
 }
 
 #macbook{
-  height: 158px;
+	height: 158px;
 	width: 272px;
 	margin-top: 68px;
 }
@@ -275,9 +235,9 @@ ul#menu li{
 	height: 80px;
 	width: 180px;
 	text-align: center;
-  margin-left: 190px ; 
-  margin-top: 30px;
-  font-weight: bold;
+	margin-left: 190px ; 
+	margin-top: 30px;
+	font-weight: bold;
 }
 
 #more-about-products ul li #more{
@@ -289,11 +249,12 @@ ul#menu li{
 	text-align: center;
 	border-radius: 30px;
 	padding-top: 12px;
-	 border: 3px solid #42be54;
-	 color: #42be54;
+	border: 3px solid #42be54;
+	color: #42be54;
+
 }
 
-#more-about-products ul li #more : hover{
+#more-about-products ul li #more:hover{
 	background-color: #42be54;
 	color:white;
 }
@@ -304,4 +265,149 @@ ul#menu li{
 #macbook{background-image: url(img/macbook.png);}
 #ipod{background-image: url(img/ipod.png);}
 #iwatch{background-image: url(img/iwatch.png);}
-#logo-apple{background-image: url(img/applelogo.png);}
+#logo-apple{background-image: url(img/applelogo.png);}   /*Конец плиток с девайсами*/
+
+#news-main{
+	position: absolute;   /*Начало блока нвостей*/
+	height: 274px;
+	width: 1168px;
+	top:1750px;
+	left: 376px;
+
+}
+#news-main p {
+font-size: 16pt;
+font-weight: bold;
+}
+
+#news-main ul#news-firstline {
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	padding: 0; 
+}
+#news-main ul#news-firstline li{
+	height: 70px;
+	width: 582px;
+
+}
+
+#news-main ul#news-secondline {
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	padding: 0; 
+
+
+}
+#news-main ul#news-secondline li{
+	height: 70px;
+	width: 582px;
+	
+	
+}
+#news-main #number{
+	height: 36px;
+	width:40px;
+	border-radius: 30px;
+	border: 3px solid #42be54; 
+  text-align: center;
+  font-size: 20pt;
+  color: #42be54;
+  padding-top: 4px;
+
+}
+#news-main p#news-name {
+	height: 15px;
+	width: 520px;
+	margin-top: -35px; 
+  margin-left: 60px;
+  font-weight: normal;
+  font-size: 12pt;
+}
+
+p#date-more{
+	font-size: 10pt;
+	margin-top: 15px;
+	margin-left: 60px;
+	color: #727777;
+}
+p#date-more a{
+
+	color: #727777;
+}
+
+#why-we{
+	position: absolute;
+	height: 330px;
+	width: 1168px;
+	top:2000px;
+	left:376px;
+	margin-bottom: 200px;
+	
+}
+#why-we p#why-we-maintitle{
+font-size: 16pt;
+font-weight: bold;
+margin-top: -2px;
+}
+#why-we #why-we-textarea{
+	width: 1148px;
+	height: 236px;
+	background-color: white; 
+	margin-top: 52px;
+	padding-top: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 40px;
+
+	}
+
+	#why-we #why-we-textarea p {
+		font-size: 13pt;
+		height: 230px;
+		width: 1120px;
+		margin:20px; 
+		line-height: 1.5;
+	}
+
+	#footer{
+		position: absolute;
+		height: 93px;
+		background-color: #2b2d2d;
+		width: 1920px;
+    top: 2500px;
+    }
+    #footer ul{
+    	width: 300px;
+    	display: flex;
+    	flex-direction: row;
+	    justify-content:space-around;
+	    margin-left: 590px;
+	    margin-top: 40px;
+	  }
+
+	  #footer ul a{
+	  	text-decoration: none;
+	  	color: #e7ebec;
+	  }
+
+	  #footer ul#copyright{
+	  	display: flex;
+	  	flex-direction: column;
+	  	margin-top: -40px;
+	  	margin-left: 357px;  
+	  	color: #e7ebec;
+	  	border-right: 1px solid #e7ebec; 
+	  	width: 230px;
+	  }
+	  #bonch-dev-logo{
+	  	position: absolute;
+	  	height: 38px;
+	  	width: 88px;
+	  	background-image:url(img/bonchlogo.png);
+	  	left: 1460px;
+	  	top:28px;
+	  	background-size: cover;
+
+	  }

@@ -145,6 +145,7 @@ ul#menu li{
 	border: 2px solid #42be54;
 	background-color:#42be54;
 }
+
 #scroll ul{
 	display: flex;
 	justify-content:center;
@@ -391,7 +392,9 @@ margin-top: -2px;
 	  	text-decoration: none;
 	  	color: #e7ebec;
 	  }
-
+#footer ul a:hover{
+	color:#42be54;
+}
 	  #footer ul#copyright{
 	  	display: flex;
 	  	flex-direction: column;

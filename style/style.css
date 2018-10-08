@@ -21,7 +21,7 @@ body{
 	left:375px;
 	top:29px;
 	background-size: cover;
-	background-image: url(img/boxlogo.png)
+	background-image: url(img/logo.png)
 	
 	
 }
@@ -43,13 +43,13 @@ body{
 	left:2px;
 	top:1px;
 	background-size: 95%;
-	background-image: url(img/logophone.png);
+	background-image: url(img/phone.png);
 
 }
 
 .phone ul {
 	position: absolute;
-	margin-top: 4px;
+	margin-top: 7px;
 	floa:right;
 	color:black;
 	vertical-align: right;
@@ -77,15 +77,15 @@ li{
 	height: 48px;
 	left:2px;
 	top:1px;
-	background-size: 99%;
-	background-image: url(img/timelogo.png);
+	background-size: cover;
+	background-image: url(img/clock.png);
 
 }
 
 .time ul{
 	position: absolute;
-	margin-left:15px;
-	margin-top: 4px;
+	margin-left:20px;
+	margin-top: 7px;
 	float:right;
 	color:black;
 	vertical-align: right;
@@ -143,3 +143,9 @@ ul#menu li{
 	background-image: url(img/profile.png);
 }
 
+.scroll{
+	position: absolute;
+	wight:1920px;
+	height:570px;
+	background-color:red;
+}

@@ -181,7 +181,7 @@ ul#menu li{
 		position: absolute;
 		height: 798px;
 		width: 1200px;
-		background-color: red;
+		
 		top:900px;
 		left: 360px;
 	}
@@ -194,7 +194,7 @@ ul#menu li{
 #more-about-products #more-about-products-firstline ul li{
 	height: 370px;
 	width: 272px;
-	background-color: blue;
+	
 }
 
 
@@ -203,41 +203,105 @@ ul#menu li{
 #more-about-products #more-about-products-secondline ul {
  display: flex;
  flex-direction: row;
+ justify-content:space-around;
+
 
 }
 #more-about-products #more-about-products-secondline ul li{
 	height: 370px;
 	width: 272px;
-	background-color: blue;
-	margin-left: 8px;
+	
+	
 }
 
 
-#more-about-products #more-about-products-secondline ul li #promise-block{
-	width: 550px;
+#more-about-products #more-about-products-secondline ul  #promise-block{
+	width: 560px;
 	height: 370px;
+	background-color: white;
 }
 
- #iphone,#ipad,#iwatch,#ipod{
+ #iphone{
 	
 	height: 222px;
 	width: 178px;
-	background-color: green;	
-	margin-left: 11px;
+	margin-left: 47px;
 	margin-top: 5px;
+}
+#ipod{
+	height: 222px;
+	width: 143px;
+	margin-left: 65px;
+	margin-top: 5px;
+}
 
+#iwatch{
+	height: 222px;
+	width: 124px;
+	margin-left: 74px;
+	margin-top: 5px;
+}
+#ipad{
+	height: 222px;
+	width: 190px;
+	margin-left: 41px;
+	margin-top: 5px;
 }
 
 #imac{
-  height: 222px;
-	width: 200px;
-	background-color: green;	
-	margin-top: 5px;
+  height: 214px;
+	width: 272px;
+	margin-top: 12px;
 }
 
 #macbook{
-  height: 222px;
-	width: 200px;
-	background-color: green;	
-	margin-top: 5px;
+  height: 158px;
+	width: 272px;
+	margin-top: 68px;
 }
+#logo-apple{
+	height: 132px;
+	width: 108px;
+	margin-top: 57px;
+	margin-left: 226px;
+}
+
+#more-about-products ul li p {
+	margin-left:85px;
+	margin-top: 52px;
+	font-weight: 700;
+}
+#promise-text{
+	height: 80px;
+	width: 180px;
+	text-align: center;
+  margin-left: 190px ; 
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+#more-about-products ul li #more{
+	
+	height: 30px;
+	width: 200px;
+	margin-left: 36px;
+	margin-top: 20px;
+	text-align: center;
+	border-radius: 30px;
+	padding-top: 12px;
+	 border: 3px solid #42be54;
+	 color: #42be54;
+}
+
+#more-about-products ul li #more : hover{
+	background-color: #42be54;
+	color:white;
+}
+
+#iphone{background-image: url(img/iphone.png);}
+#ipad{background-image: url(img/ipad.png);background-size: cover;}
+#imac{background-image: url(img/imac.png);}
+#macbook{background-image: url(img/macbook.png);}
+#ipod{background-image: url(img/ipod.png);}
+#iwatch{background-image: url(img/iwatch.png);}
+#logo-apple{background-image: url(img/applelogo.png);}
